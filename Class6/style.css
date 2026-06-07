@@ -1,0 +1,24 @@
+.input-box{
+    width: 1000px;
+    border-radius: 5px;
+}
+
+.button-style{
+    background-color: blue;
+    color: white;
+    border: 2px darkblue solid;
+    border-radius: 5px;
+    width: 1000px;
+    height: 40px;
+}
+
+.margin1{
+    margin-top: 1%;
+}
+.margin2{
+    margin-top: 3%;
+}
+
+footer{
+    margin-top: 20%;
+}
