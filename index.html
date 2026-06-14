@@ -7,15 +7,51 @@
     </head>
 
     <body>
-        <div class="container mt-4">
+
+        <div class="container mt-4 margin2">
             <h1 class="display-3 text-center">
                 <i class="fas fa-video" style="color: blue;"></i>
                 Movies <span class="text-primary">DataBase</span>
             </h1>
+        
+
+        <div class="#">
+            <h4 class="">Title</h4>
+            <input  class="input-box" id="title" type="text">
+        </div>
+
+        <div class="margin1">
+            <h4 class="">Director</h4>
+            <input  class="input-box" id="director" type="text">
+        </div>
+
+        <div class="margin1">
+            <h4 class="">Year</h4>
+            <input  class="input-box" id="year" type="text">
+        </div>
+
+        <div class=" margin1">
+            <button class="button-style" id="Add" >Add Movie</button>
+        </div>
+
+        <div class="margin2 input-box">
+            <table class="table table-striped mt-4">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Director</th>
+                        <th>Year</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="Mlist"> </tbody>
+            </table>
+        </div>
+
         </div>
 
         <script src = "script.js"></script>
     </body>
 
-    <footer>Made by Jude Adeoye.</footer>
+    <footer class="text-center display-4">Made by Jude Adeoye.</footer>
 </html>
